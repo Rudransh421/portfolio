@@ -182,7 +182,7 @@ const Portfolio = () => {
     {
       company: "EventsBridge",
       role: "Software Development Engineer Intern",
-      duration: "Mar 2024 - Jun 2024",
+      duration: "Jun 2025 - Current",
       highlights: [
         "Established authentication system and backend foundation for 3-4 member team",
         "Structured backend development in three organized phases for scalable delivery",
