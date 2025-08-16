@@ -294,7 +294,7 @@ const Portfolio = () => {
           <img
             src="/logo_nobg.png" // <-- replace with your logo path
             alt="Background Logo"
-            className="w-full h-full object-cover opacity-10 blur-sm pointer-events-none select-none"
+            className="w-full h-full object-cover opacity-30 blur-sm pointer-events-none select-none"
           />
         </div>
 
@@ -651,7 +651,7 @@ const Portfolio = () => {
                   Let's Connect
                 </h3>
                 <p className="text-gray-300 text-lg leading-relaxed">
-                  I'm actively looking for remote or on-site internship
+                  I'm actively looking for remote or on-site internship/Job
                   opportunities where I can contribute to building scalable,
                   well-structured software while continuing to grow as a
                   developer.
