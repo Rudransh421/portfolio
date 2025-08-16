@@ -287,9 +287,19 @@ const Portfolio = () => {
       {/* Hero Section */}
       <section
         id="home"
-        className="pt-16 min-h-screen flex items-center justify-center"
+        className="relative pt-16 min-h-screen flex items-center justify-center"
       >
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        {/* Background logo */}
+        <div className="absolute inset-0 flex justify-center items-center">
+          <img
+            src="/logo_nobg.png" // <-- replace with your logo path
+            alt="Background Logo"
+            className="w-full h-full object-cover opacity-10 blur-sm pointer-events-none select-none"
+          />
+        </div>
+
+        {/* Content */}
+        <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="space-y-8">
             <div className="space-y-4">
               <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent animate-fade-in-up">
@@ -305,10 +315,11 @@ const Portfolio = () => {
               </p>
             </div>
 
+            {/* Buttons & social icons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in-up animation-delay-600">
               <a
-                href="/resume.pdf" 
-                download="Rudransh_Dash_Resume.pdf" 
+                href="/resume.pdf"
+                download="Rudransh_Dash_Resume.pdf"
                 className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-medium transition-all duration-300 flex items-center gap-2 hover:scale-105 hover:shadow-lg hover:shadow-blue-500/25"
               >
                 <Download className="w-5 h-5" />
